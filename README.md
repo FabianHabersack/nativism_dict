@@ -1,5 +1,9 @@
+<img src="nativism_dict.png" align="right" width="200" height="130" />
+
 Nativism Dictionary
 ===============
+
+
 
 [![Twitter URL](https://img.shields.io/twitter/follow/FabianHabersack?style=social)](https://twitter.com/FabianHabersack)
 
