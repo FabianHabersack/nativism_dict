@@ -1,2 +1,76 @@
-# nativism_dict
-German-language dictionary terms to measure nativist language in political texts
+Nativism Dictionary
+===============
+
+[![Twitter URL](https://img.shields.io/twitter/follow/FabianHabersack?style=social)](https://twitter.com/FabianHabersack)
+
+
+
+# Description
+
+This repository makes the German-language nativism dictionary freely available that was established, validated, and used for the following research article:
+
+> **Habersack, FJ, and Werner, A (2022).** How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
+
+The dictionary is intended and designed for use in quantitative text analyses of political texts, such as parties' election manifestos. It measures nativist ideological statements along several sub-dimensions, on a (quasi)sentence basis using RegEx patterns (string-of-words). The dictionary not only identifies sentences as nativist but allows measuring nativism along five components or sub-dimensions:
+
+- **Cultural dimension:** ‘Does the quasi-sentence indicate language that refers to one’s own(ed) traditions and one’s own(ed) cultural values or achievements, that sees these values threatened and that thereby expresses a single narrative of belonging?’
+- **Political rights dimensions:** ‘Does the quasi-sentence reflect language from which a general hostility toward seemingly non-indigenous groups or actors emerges and as a result of which expresses concern with an infringement of political self-determination rights?’
+- **Religious dimension:** ‘Does the quasi-sentence exhibit language that conceives of non-native religious influences such as Islam as alien and incompatible with other religious values such as Christianity?’.
+- **Economic dimension:** ‘Does the quasi-sentence exhibit language from which an economic threat situation emerges that is caused or exacerbated by non-nativist actors or groups?’
+- **Law and order dimension:** ‘Does the quasi-sentence exhibit language that refers to security threats such as rising crime as a result of non-nativist, foreign influences?’
+
+**NOTE:** When the dictionary is applied to new, unseen data, especially if these are document types other than pre-structured election manifestos, additional validation is required. The dictionary has been validated on Austrian, German, and Swiss election manifestos and reliably measures nativist ideology. If inaccuracies are found with respect to other document types, please let me know.
+
+# Using the Nativism Dictionary
+
+To use the dictionary for quantitative text analyses in R, install and load the package {quanteda}.
+
+```{r}
+install.packages("quanteda")
+library(quanteda)
+```
+
+> If you use the quanteda package, please cite:
+Benoit, K, Watanabe, K, Wang, H, Nulty, P, Obeng, A, Müller, S, and Matsuo, A (2018). quanteda: an R package for the quantitative analysis of textual data. _Journal of Open Source Software_ 3(30): 774. DOI: [10.21105/joss.00774](https://doi.org/10.21105/joss.00774)
+
+To use the dictionary (_Nativism Dictionary 1.0_), please import the raw dictionary terms contained in the file [nativism_dict.RDS](nativism_dict.RDS).
+
+```{r}
+nativism_dict <- readRDS("nativism_dict.RDS")
+nativism_dict
+
+Dictionary object with 5 key entries.
+- [cultural_dim]: ...
+- [political_rights_dim]: ...
+- [religious_dim]: ...
+- [economic_dim]: ...
+- [law_and_order_dim]: ...
+
+```
+
+Focus only on _individual components_ of nativism, e.g. its economic dimension (which equals _welfare chauvinism_), like so:
+
+```{r}
+nativism_dict[4]
+
+or
+
+nativism_dict[c("economic_dim")]
+```
+
+# Status 
+
+- [x] Release of _Nativism Dictionary 1.0_ :balloon:
+- [ ] Provide better documentation and + R package
+- [ ] Further testing and validation
+
+# Citation
+
+If you use the Nativism Dictionary, please cite:
+
+- Habersack FJ (2022). NativismDict. A regular expression dictionary for quantitative text analyses, available on
+GitHub. https://github.com/FabianHabersack/nativism_dict
+
+and
+
+- Habersack, FJ, and Werner, A (2022). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
