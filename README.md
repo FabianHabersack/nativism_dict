@@ -1,4 +1,4 @@
-<img src="nativism_dict.png" align="right" width="200" height="130" />
+<img src="nativism_dict.png" align="right" width="25%" height="25%" />
 
 Nativism Dictionary
 ===============
@@ -15,7 +15,7 @@ This repository makes the German-language nativism dictionary freely available t
 
 > **Habersack, FJ, and Werner, A (2022).** How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
 
-The dictionary is intended and designed for use in quantitative text analyses of political texts, such as parties' election manifestos. It measures nativist ideological statements along several sub-dimensions, on a (quasi)sentence basis using RegEx patterns (string-of-words). The dictionary not only identifies sentences as nativist but allows measuring nativism along five components or sub-dimensions:
+The dictionary is intended and designed for use in quantitative text analyses of political texts, such as parties' election manifestos. It measures nativist language on a (quasi)sentence basis (see: [MARPOR](https://manifesto-project.wzb.eu)) using RegEx patterns (string-of-words). The dictionary not only identifies sentences as nativist (binary) but also allows measuring nativism along five components or sub-dimensions:
 
 - **Cultural dimension:** ‘Does the quasi-sentence indicate language that refers to one’s own(ed) traditions and one’s own(ed) cultural values or achievements, that sees these values threatened and that thereby expresses a single narrative of belonging?’
 - **Political rights dimensions:** ‘Does the quasi-sentence reflect language from which a general hostility toward seemingly non-indigenous groups or actors emerges and as a result of which expresses concern with an infringement of political self-determination rights?’
@@ -34,9 +34,6 @@ install.packages("quanteda")
 library(quanteda)
 ```
 
-> If you use the quanteda package, please cite:
-Benoit, K, Watanabe, K, Wang, H, Nulty, P, Obeng, A, Müller, S, and Matsuo, A (2018). quanteda: an R package for the quantitative analysis of textual data. _Journal of Open Source Software_ 3(30): 774. DOI: [10.21105/joss.00774](https://doi.org/10.21105/joss.00774)
-
 To use the dictionary (_Nativism Dictionary 1.0_), please import the raw dictionary terms contained in the file [nativism_dict.RDS](nativism_dict.RDS).
 
 ```{r}
@@ -52,7 +49,7 @@ Dictionary object with 5 key entries.
 
 ```
 
-Focus only on _individual components_ of nativism, e.g. its economic dimension (which equals _welfare chauvinism_), like so:
+Focus only on _individual components_ of nativism, e.g. its economic dimension (that is, _welfare chauvinism_), like so:
 
 ```{r}
 nativism_dict[4]
@@ -65,8 +62,8 @@ nativism_dict[c("economic_dim")]
 # Status 
 
 - [x] Release of _Nativism Dictionary 1.0_ :balloon:
-- [ ] Provide better documentation and + R package
-- [ ] Further testing and validation
+- [ ] Provide better documentation incl. R package (by end of 2022)
+- [ ] Further testing and validation (by end of 2023)
 
 # Citation
 
@@ -78,3 +75,5 @@ GitHub. https://github.com/FabianHabersack/nativism_dict
 and
 
 - Habersack, FJ, and Werner, A (2022). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
+
+Cheers!
