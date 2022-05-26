@@ -29,18 +29,18 @@ The dictionary is intended and designed for use in quantitative text analyses of
 
 To use the dictionary for quantitative text analyses in R, install and load the package {quanteda}.
 
-```{r}
+```r
 install.packages("quanteda")
 library(quanteda)
 ```
 
 To use the dictionary (_Nativism Dictionary 1.0_), please import the raw dictionary terms contained in the file [nativism_dict.RDS](nativism_dict.RDS).
 
-```{r}
+```r
 nativism_dict <- readRDS("nativism_dict.RDS")
 nativism_dict
 ```
-```{r}
+```r
 Dictionary object with 5 key entries.
 - [cultural_dim]: ...
 - [political_rights_dim]: ...
@@ -51,11 +51,11 @@ Dictionary object with 5 key entries.
 
 Focus only on _individual components_ of nativism, e.g. its economic dimension (that is, _welfare chauvinism_), like so:
 
-```{r}
+```r
 nativism_dict[4]
 ```
 Or, alternatively:
-```{r}
+```r
 nativism_dict[c("economic_dim")]
 ```
 
