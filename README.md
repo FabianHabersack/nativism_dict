@@ -39,7 +39,8 @@ To use the dictionary (_Nativism Dictionary 1.0_), please import the raw diction
 ```{r}
 nativism_dict <- readRDS("nativism_dict.RDS")
 nativism_dict
-
+```
+```{r}
 Dictionary object with 5 key entries.
 - [cultural_dim]: ...
 - [political_rights_dim]: ...
@@ -52,9 +53,9 @@ Focus only on _individual components_ of nativism, e.g. its economic dimension (
 
 ```{r}
 nativism_dict[4]
-
-or
-
+```
+Or, alternatively:
+```{r}
 nativism_dict[c("economic_dim")]
 ```
 
