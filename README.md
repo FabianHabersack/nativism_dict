@@ -70,10 +70,10 @@ nativism_dict[c("economic_dim")]
 If you use the Nativism Dictionary, please cite:
 
 - Habersack FJ (2022). NativismDict. A regular expression dictionary for quantitative text analyses, available on
-GitHub. https://github.com/FabianHabersack/nativism_dict. [BIBTEX](Habersack2022.bib)
+GitHub. https://github.com/FabianHabersack/nativism_dict. [&#8594; BibTeX](Habersack2022.bib)
 
 and
 
-- Habersack, FJ, and Werner, A (2022). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930). [BIBTEX](HabersackWerner2022.bib)
+- Habersack, FJ, and Werner, A (2022). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930). [&#8594; BibTeX](HabersackWerner2022.bib)
 
 Cheers!
