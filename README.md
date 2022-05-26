@@ -16,7 +16,7 @@ This repository makes the German-language nativism dictionary freely available t
 > **Habersack, FJ, and Werner, A (2022).** How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
 
 The dictionary is intended and designed for use in quantitative text analyses of political texts, such as parties' election manifestos. It measures nativist language on a (quasi)sentence basis (see: [MARPOR](https://manifesto-project.wzb.eu)) using RegEx patterns (string-of-words). The dictionary not only identifies sentences as nativist (binary) but also allows measuring nativism along five components or sub-dimensions:
-
+  
 - **Cultural dimension:** ‘Does the quasi-sentence indicate language that refers to one’s own(ed) traditions and one’s own(ed) cultural values or achievements, that sees these values threatened and that thereby expresses a single narrative of belonging?’
 - **Political rights dimensions:** ‘Does the quasi-sentence reflect language from which a general hostility toward seemingly non-indigenous groups or actors emerges and as a result of which expresses concern with an infringement of political self-determination rights?’
 - **Religious dimension:** ‘Does the quasi-sentence exhibit language that conceives of non-native religious influences such as Islam as alien and incompatible with other religious values such as Christianity?’.
