@@ -62,8 +62,8 @@ nativism_dict[c("economic_dim")]
 # Status 
 
 - [x] Release of _Nativism Dictionary 1.0_ :balloon:
-- [ ] Provide better documentation incl. R package (by end of 2022)
-- [ ] Further testing and validation (by end of 2023)
+- [ ] Better documentation incl. R package release (by end of 2022)
+- [ ] Further testing and validation incl. other document types (by end of 2023)
 
 # Citation
 
