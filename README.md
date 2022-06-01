@@ -69,8 +69,7 @@ nativism_dict[c("economic_dim")]
 
 If you use the Nativism Dictionary, please cite:
 
-- Habersack FJ (2022). NativismDict. A regular expression dictionary for quantitative text analyses, available on
-GitHub. https://github.com/FabianHabersack/nativism_dict. [&#8594; BibTeX](cite/Habersack2022.bib)
+- Habersack FJ (2022). NativismDict. A regular expression dictionary for quantitative text analyses, available on GitHub. DOI: [10.5281/zenodo.6598960](https://doi.org/10.5281/zenodo.6598960). [&#8594; BibTeX](cite/Habersack2022.bib)
 
 and
 
