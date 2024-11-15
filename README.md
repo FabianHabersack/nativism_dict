@@ -1,7 +1,6 @@
 <img src="nativism_dict.png" align="right" width="25%" height="25%" />
 
 Nativism Dictionary
-===============
 
 
 
@@ -62,8 +61,7 @@ nativism_dict[c("economic_dim")]
 # Status 
 
 - [x] Release of _Nativism Dictionary 1.0_ :balloon:
-- [ ] Better documentation incl. R package release (by end of 2022)
-- [ ] Further testing and validation incl. other document types (by end of 2023)
+- [ ] More extensive documentation, examples, and R package release
 
 # Citation
 
