@@ -12,7 +12,7 @@ Nativism Dictionary
 
 This repository makes the German-language nativism dictionary freely available that was established, validated, and used for the following research article:
 
-> **Habersack, FJ, and Werner, A (2022).** How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
+> **Habersack, FJ, and Werner, A (2023).** How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_, 29(5), 865-877. DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930)
 
 The dictionary is intended and designed for use in quantitative text analyses of political texts, such as parties' election manifestos. It measures nativist language on a (quasi)sentence basis (see: [MARPOR](https://manifesto-project.wzb.eu)) using RegEx patterns (string-of-words). The dictionary not only identifies sentences as nativist (binary) but also allows measuring nativism along five components or sub-dimensions:
   
