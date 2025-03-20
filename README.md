@@ -58,11 +58,6 @@ Or, alternatively:
 nativism_dict[c("economic_dim")]
 ```
 
-# Status 
-
-- [x] Release of _Nativism Dictionary 1.0_ :balloon:
-- [ ] More extensive documentation, examples, and R package release
-
 # Citation
 
 If you use the Nativism Dictionary, please cite:
@@ -72,7 +67,7 @@ If you use the Nativism Dictionary, please cite:
 
 and
 
-- Habersack, FJ, and Werner, A (2022). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_.  <br />
+- Habersack, FJ, and Werner, A (2023). How non-radical right parties strategically use nativist language: Evidence from an automated content analysis of Austrian, German, and Swiss election manifestos, _Party Politics_, 29(5), 865-877.  <br />
   DOI: [10.1177/13540688221103930](https://doi.org/10.1177/13540688221103930). [&#8594; BibTeX](cite/HabersackWerner2022.bib)
 
 Cheers!
